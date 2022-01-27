@@ -8090,7 +8090,7 @@ h1, h2, h3, h4, h5,
           color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
     border: none;
-    background: #fff;
+    background:#696969;
     -webkit-box-shadow: 0px 10px 34px -20px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 0px 10px 34px -20px rgba(0, 0, 0, 0.41);
     box-shadow: 0px 10px 34px -20px rgba(0, 0, 0, 0.41);
@@ -9180,7 +9180,9 @@ textarea.form-control {
 
 .goto-here {
   width: 100%;
-  display: block; }
+  display: block; 
+  background: snow;
+}
 
 .about-author .desc h3 {
   font-size: 24px; }

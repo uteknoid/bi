@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class=" w3l-form-group">
                 <label>Username:</label>
                 <div class="group">
-                    <i class="fas fa-user"></i>
+                    <i class="fas fa-user" style="color: #00E4FF;"></i>
                     <input type="text" name="username" value="<?php echo set_value('username', $old_username); ?>" class="form-control" placeholder="Username" minlength="4" maxlength="16" required>
                 </div>
                 <?php echo form_error('username'); ?>
@@ -41,7 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class=" w3l-form-group">
                 <label>Password:</label>
                 <div class="group">
-                    <i class="fas fa-unlock"></i>
+                    <i class="fas fa-unlock" style="color: #00E4FF;"></i>
                     <input type="password" name="password" class="form-control" placeholder="Password" required>
                 </div>
                 <?php echo form_error('password'); ?>

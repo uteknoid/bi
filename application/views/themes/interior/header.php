@@ -38,7 +38,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script src="<?php echo get_theme_uri('js/jquery-migrate-3.0.1.min.js'); ?>"></script>
   </head>
   <body class="goto-here">
-		<div class="py-1" style="background-color: pink;">
+		<div class="py-1" style="background-color: #00e4ff;">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
 	    		<div class="col-lg-12 d-block">
@@ -69,6 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="<?php echo site_url('si/informasi'); ?>" class="nav-link">Galery</a></li>
 	          <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">

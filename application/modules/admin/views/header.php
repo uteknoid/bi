@@ -59,6 +59,12 @@ $query = $this->input->get('search_query');
               </a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="<?php echo site_url('admin/informasi'); ?>">
+                <i class="ni ni-bullet-list-67 text-info"></i>
+                <span class="nav-link-text">Manage Informasi</span>
+              </a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="<?php echo site_url('admin/products/category'); ?>">
                 <i class="ni ni-bullet-list-67 text-info"></i>
                 <span class="nav-link-text">Kategori Produk</span>

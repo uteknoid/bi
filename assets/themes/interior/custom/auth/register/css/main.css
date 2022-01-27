@@ -452,12 +452,21 @@ input {
 /* ==========================================================================
    #CARD
    ========================================================================== */
+.page-wrapper {
+  background-color:#000;
+  background: url("../images/bgregis.jpg") no-repeat center;
+  size: full;
+  background-size: cover;
+  height: 100%;
+ }
+
 .card {
   overflow: hidden;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   background: #fff;
+ 
 }
 
 .card-2 {
@@ -467,15 +476,11 @@ input {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  width: 100%;
+  width: 80%;
   display: table;
+  opacity: 80%;
 }
 
-.card-2 .card-heading {
-  background: url("../images/bg-heading-02.jpg") top left/cover no-repeat;
-  width: 29.1%;
-  display: table-cell;
-}
 
 .card-2 .card-body {
   display: table-cell;
@@ -495,6 +500,11 @@ input {
   }
   .card-2 .card-body {
     display: block;
-    padding: 60px 50px;
+    padding: 30px 50px;
   }
+
+
 }
+
+
+
