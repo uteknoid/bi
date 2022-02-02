@@ -1,12 +1,10 @@
 
 
 		<footer class="tm-footer text-center">
-			<p>Copyright &copy; 2020 Simple House 
-				
-				| Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+			<p>Copyright &copy; <?php echo date('Y'); ?> Bandung Interior</p>
 			</footer>
 		</div>
-		<script src=<?= base_url('assets/si/'); ?>"js/jquery.min.js"></script>
+		<script src="<?= base_url('assets/si/'); ?>js/jquery.min.js"></script>
 		<script src="<?= base_url('assets/si/'); ?>js/parallax.min.js"></script>
 		<script>
 			$(document).ready(function(){
